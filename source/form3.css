@@ -1,0 +1,57 @@
+.container{
+    width: 500px;
+    height: 300px;
+    background-color: aquamarine;
+    border-radius: 10px;
+   
+}
+.text-header{
+   width: 100%;
+   height: 40px;
+    background-color: cadetblue;
+    text-align: center;
+
+}
+.name{
+     padding: 10px;
+     display: flex;
+     margin: 0;
+}
+.name h3{
+    margin: 0 ;
+}
+.name input{
+    height: 20px;
+    margin-left: 20px;
+    width: 240px;
+   }
+.name_email{
+    padding: 10px;
+    display: flex;
+    margin: 0;
+} 
+.name_email h3{
+    margin: 0;
+} 
+.name_email input{
+    height: 20px;
+    margin-left: 49px;
+    width: 240px;
+   } 
+
+.list{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 30px;
+}
+.list li{
+    padding: 5px;
+}
+.hobbies{
+    display: flex;
+    padding-left: 10px;
+}
+.button{
+    padding-left: 100px;
+}
